@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/codeblog
+    password: 41494899
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: 'true'
+    hibernate:
+      ddl-auto: update
