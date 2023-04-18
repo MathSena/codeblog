@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    url: jdbc:mysql://localhost:3306/codeblog
+    url: jdbc:mysql://localhost:3306/codeblog?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
     password: 41494899
   jpa:
     properties:
