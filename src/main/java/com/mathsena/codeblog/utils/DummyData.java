@@ -3,10 +3,10 @@ package com.mathsena.codeblog.utils;
 
 import com.mathsena.codeblog.model.Post;
 import com.mathsena.codeblog.repository.CodeblogRepository;
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
